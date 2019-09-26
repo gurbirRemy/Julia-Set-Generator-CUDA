@@ -1,6 +1,6 @@
 // Julia Set Generator (CUDA).cu
 // July 2018 (Updated September 2019)
-// Generates and renders Julia Sets, with custom color gradients.
+// Generates Julia Sets, with custom color gradients.
 // Chris M
 // https://github.com/RealTimeChris
 
