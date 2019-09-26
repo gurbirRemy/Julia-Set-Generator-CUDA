@@ -18,59 +18,59 @@ If you run into any issues compiling or running the program or have any question
 
 Complex plane bounds:
   
-  Left Bound = -2.13
+  - Left Bound = -2.13
   
-  Right Bound = 2.13
+  - Right Bound = 2.13
   
-  Upper Bound = 1.2
+  - Upper Bound = 1.2
   
-  Lower Bound = -1.2
+  - Lower Bound = -1.2
 
 <br>
 
 Julia set selection:
   
-  Real Component = 0.0
+  - Real Component = 0.0
   
-  Imaginary Component = 0.67
+  - Imaginary Component = 0.67
 
 <br>
 
 Color gradient transform functions:
   
-  d (red) = -13.3
+  - d (red) = -13.3
   
-  k (red) = 0.045
+  - k (red) = 0.045
   
-  a (red) = -130
+  - a (red) = -130
   
-  c (red) = 160
+  - c (red) = 160
 
  <br>
 
-  d (green) = 0
+  - d (green) = 0
   
-  k (green) = 0.045
+  - k (green) = 0.045
   
-  a (green) = -80
+  - a (green) = -80
   
-  c (green) = 40
+  - c (green) = 40
 
 <br>
 
-  d (blue) = 29.3
+  - d (blue) = 29.3
   
-  k (blue) = 0.1
+  - k (blue) = 0.1
   
-  a (blue) = 60
+  - a (blue) = 60
   
-  c (blue) = 80
+  - c (blue) = 80
 
 <br>
 
 File name:
   
-  0.0 + 0.67i
+  - 0.0 + 0.67i
 
 <br>
 
@@ -81,8 +81,8 @@ Output:
 <br>
 
 # Notes
-  -Be sure that the character set is Unicode in the Visual Studio project settings.
+- Be sure that the character set is Unicode in the Visual Studio project settings.
 
-  -You may need to change the CUDA worker group Grid and Block dimensions to suit the specs of your hardware, as shown here; (This is controlled using the dim3-typed variables named “threadsPB” and “grid” in the code)
+- You may need to change the CUDA worker group Grid and Block dimensions to suit the specs of your hardware, as shown here; (This is controlled using the dim3-typed variables named “threadsPB” and “grid” in the code)
 	https://en.wikipedia.org/wiki/CUDA#Version_features_and_specifications
 
