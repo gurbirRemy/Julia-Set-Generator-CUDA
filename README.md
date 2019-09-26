@@ -1,6 +1,6 @@
 # Summary
 
-This is a basic procedural console program written in CUDA C. It accepts user input for defining which Julia set is generated, and then subsequently accepts additional user input for defining the color transform functions for choosing a color scheme for the generated set. The program then saves the color data to disk on the Windows desktop with a user-defined file name.
+This is a basic procedural console program written in CUDA C. First, it collects values representing the bounds of a section of the complex plane that will be seen in the generated image, and so these values can be used to zoom in or out of a given Julia set. It then accepts user input for defining which Julia set is generated, and then subsequently collects additional user input for defining the color transform functions for choosing a color scheme for the generated set. The program then saves the color data to disk on the Windows desktop with a user-defined file name.
 
 If you are not familiar with Julia sets or how they are generated and colored using the method employed by this program, have a look at these links:
 
